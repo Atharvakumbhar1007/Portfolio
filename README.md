@@ -1,73 +1,106 @@
-# Welcome to your Lovable project
+# Atharva Kumbhar
 
-## Project info
+Full Stack Developer
+Software Engineering (Final Year)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## About This Project
 
-## How can I edit this code?
+This repository contains the source code for my personal portfolio website.
+It highlights my technical skills, selected projects, and practical experience in building full-stack applications.
 
-There are several ways of editing your application.
+The goal of this portfolio is simple — keep it clean, fast, and focused on real work.
 
-**Use Lovable**
+## Repository:
+https://github.com/Atharvakumbhar1007/portfolio
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+## Frontend
 
-**Use your preferred IDE**
+React
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+TypeScript
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Tailwind CSS
 
-Follow these steps:
+ShadCN UI
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Backend
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Node.js
 
-# Step 3: Install the necessary dependencies.
-npm i
+Express
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Database
+
+MongoDB
+
+MySQL
+
+## Tools
+
+Git
+
+GitHub
+
+VS Code
+
+Local Setup
+
+## If you want to run this project locally:
+
+git clone https://github.com/Atharvakumbhar1007/portfolio.git
+cd portfolio
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+## Project Structure
+### Root
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+index.html — Base HTML template
 
-**Use GitHub Codespaces**
+package.json — Project metadata & dependencies
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+vite.config.ts — Vite configuration
 
-## What technologies are used for this project?
+tsconfig.json — TypeScript configuration
 
-This project is built with:
+README.md — Project documentation
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### /public
 
-## How can I deploy this project?
+Static files served directly
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Optimized assets
 
-## Can I connect a custom domain to my Lovable project?
+### /src
 
-Yes, you can!
+main.tsx — Application entry point
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+App.tsx — Root component
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+assets/ — Images, icons, static resources
+
+components/ — Reusable UI components
+
+pages/ — Page-level sections
+
+hooks/ — Custom React hooks
+
+lib/ — Utility functions and shared logic
+Features
+
+Responsive layout
+
+Modular component structure
+
+Optimized build using Vite
+
+Resume download option
+
+Clean UI with reusable components
+
+Contact
+
+## Email:
+atharvakumbhar631@gmail.com
